@@ -30,7 +30,7 @@
 ## Results
 * **FID: 3.81**
 <div align="center">
-  <img src="./assets/sample.gif">
+  <img src="./assets/sample_2.gif">
 </div>
 
 ## Author
