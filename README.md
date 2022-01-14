@@ -33,5 +33,9 @@
   <img src="./assets/sample_2.gif">
 </div>
 
+## Reference
+* [Official Pytorch](https://github.com/jychoi118/toward_spatial_unbiased)
+* [StyleGAN2-Tensorflow](https://github.com/moono/stylegan2-tf-2.x)
+
 ## Author
 [Junho Kim](http://bit.ly/jhkim_resume)
