@@ -30,7 +30,7 @@
 ```
 
 ## Results
-* **FID: 3.81**
+* **FID: 3.81 (6.4M images, 8GPU, each 4 batch size)**
 <div align="center">
   <img src="./assets/sample_2.gif">
 </div>
