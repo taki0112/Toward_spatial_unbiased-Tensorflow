@@ -35,6 +35,21 @@
   <img src="./assets/sample_2.gif">
 </div>
 
+### Uncuratd
+<div align="center">
+  <img src="./assets/uncurated.png">
+</div>
+
+### Style mixing
+<div align="center">
+  <img src="./assets/style_mixing.png">
+</div>
+
+### Truncation trick
+<div align="center">
+  <img src="./assets/truncation_trick.png">
+</div>
+
 ## Reference
 * [Official Pytorch](https://github.com/jychoi118/toward_spatial_unbiased)
 * [StyleGAN2-Tensorflow](https://github.com/moono/stylegan2-tf-2.x)
