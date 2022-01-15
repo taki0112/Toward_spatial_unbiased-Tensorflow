@@ -6,7 +6,7 @@ def parse_args():
     desc = "Tensorflow implementation of StyleGAN2"
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('--phase', type=str, default='train', help='[train, test, draw]')
-    parser.add_argument('--draw', type=str, default='uncurated', help='[uncurated, style_mix, truncation_trick]')
+    parser.add_argument('--draw', type=str, default='all', help='[uncurated, style_mix, truncation_trick, all]')
 
     parser.add_argument('--dataset', type=str, default='FFHQ', help='dataset_name')
 
@@ -139,10 +139,18 @@ def main():
                 print(" [*] Truncation_trick finished!")
 
 
-            else:
+            elif args['draw'] == 'uncurated':
                 gan.draw_uncurated_result_figure()
 
                 print(" [*] Un-curated finished!")
+
+            else:
+                gan.draw_uncurated_result_figure()
+                print(" [*] Un-curated finished!")
+                gan.draw_style_mixing_figure()
+                print(" [*] Style mix finished!")
+                gan.draw_truncation_trick_figure()
+                print(" [*] Truncation_trick finished!")
 
 
 
