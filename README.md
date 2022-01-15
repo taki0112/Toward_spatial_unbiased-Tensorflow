@@ -42,6 +42,7 @@
 </div>
 
 ### Style mixing
+* It's worse than stylegan2.
 <div align="center">
   <img src="./assets/style_mixing.png">
 </div>
