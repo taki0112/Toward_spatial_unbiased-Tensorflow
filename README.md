@@ -31,6 +31,7 @@
 
 ## Results
 * **FID: 3.81 (6.4M images(200k iterations), 8GPU, each 4 batch size)**
+  * **FID reported in the paper: 6.75**
 ### Video
 <div align="center">
   <img src="./assets/sample_2.gif">
